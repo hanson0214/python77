@@ -1,0 +1,5 @@
+a=input("請輸入英文句子:")
+a=a.strip()
+a=a.strip(".")
+u=a.split(" ")
+print(list(reversed(u)))
